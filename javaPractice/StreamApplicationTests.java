@@ -116,7 +116,7 @@ class DemoApplicationTests {
         personList.stream()
                 .sorted(Comparator.comparing(Person::getAge));
 
-        System.out.println(personList);//
+        System.out.println(personList);
     }
 
 }
